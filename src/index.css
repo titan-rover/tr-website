@@ -15,3 +15,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.swiper-pagination-bullet {
+  @apply bg-gray-400 w-3 h-3 rounded-full mx-1; /* Custom dot style */
+}
+
+.swiper-pagination-bullet-active {
+  @apply bg-black; /* Active dot */
+}
+
+
