@@ -1,7 +1,10 @@
+import { WhyJoin } from "../components/About/WhyJoin";
+
 export const HomePage = () => {
-    return (
-        <>
-        <h1>home page</h1>
-        </>
-    )
+	return (
+		<>
+			<h1>home page</h1>
+			<WhyJoin />
+		</>
+	)
 }
