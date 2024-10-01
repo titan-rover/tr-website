@@ -4,14 +4,14 @@ import placeholder from '../components/placeholder.jpg';
 export const AboutPage = () => {
   return (
     <>
-        <div className="relative w-full h-[500px] ">
+        <div className="relative w-full h-[500px] dark:bg-black">
           <img src={placeholder} alt="Titan Rover" className="w-full h-full object-cover" />
           <h1 className="absolute inset-0 flex items-center justify-center text-white text-5xl font-bold bg-black bg-opacity-50">
             About Us
           </h1>
         </div>
 
-        <div className="px-20 dark:bg-black dark:text-white">    
+        <div className="px-20 dark:bg-black dark:text-white py-10">    
           <h1 className="text-4xl font-bold mt-6 mb-6">Our Team Structure</h1>
           <div className="px-20">
           <p className="text-lg mb-6 px-20 text-left">
