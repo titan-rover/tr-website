@@ -15,12 +15,12 @@ export const HomePage = () => {
 	return (
 		<>
 			<div className="flex flex-col md:flex-row min-[900px]:h-[500px] min-[2000px]:h-[1000px]">
-				<div className = "md:w-3/5 pt-[80px] pl-[80px] pb-[50px] text-left">
+				<div className = "md:w-3/5 pt-20 pl-20 pb-13 text-left">
 					<h1 className ="text-5xl font-semibold ml-8 mb-10 min-[2500px]:text-7xl min-[2800px]:text-9xl">{HomeHdr1}</h1>
 					<p className = "text-sm m-6 min-[2500px]:text-2xl min-[2800px]:text-4xl">{HomePar1}</p>
 					<p className = "text-sm m-6 min-[2500px]:text-2xl min-[2800px]:text-4xl">{HomePar2}</p>
 					<p className = "text-sm m-6 min-[2500px]:text-2xl min-[2800px]:text-4xl">{HomePar3}</p>
-					<p className = "text-xs font-medium mt-10 ml-[60px] min-[2500px]:text-xl min-[2800px]:text-2xl">{HomeLink1} <Link to="/about" className="underline"> {LastWord} </Link> </p>
+					<p className = "text-xs font-medium mt-10 ml-15 min-[2500px]:text-xl min-[2800px]:text-2xl">{HomeLink1} <Link to="/about" className="underline"> {LastWord} </Link> </p>
 				</div>
 				<div className="md:w-2/5">
 						<img src={TeamPng} alt="Team" className="w-full h-full object-cover"/>
