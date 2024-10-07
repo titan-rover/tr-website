@@ -14,7 +14,7 @@ export const HomePage = () => {
   return (
     <>
       {/* Main content section */}
-      <div className="flex flex-col md:flex-row items-center md:items-start">
+      <div className="flex flex-col md:flex-row items-center md:items-start dark:bg-black dark:text-white ">
         {/* Text section */}
         <div className="md:w-3/5 pt-10 md:pt-20 px-5 md:px-20 pb-8 md:pb-13 text-left">
           <h1 className="text-5xl font-semibold text-center md:text-left mb-8 md:ml-8">{HomeHdr1}</h1>
@@ -27,13 +27,13 @@ export const HomePage = () => {
         </div>
 
         {/* Image section */}
-        <div className="md:w-2/5 max-w-xs mx-auto md:max-w-full">
+        <div className="md:w-2/5 max-w-xs mx-auto md:max-w-full  dark:bg-black dark:text-white">
           <img src={TeamPng} alt="Team" className="w-full h-auto object-cover" />
         </div>
       </div>
 
       {/* Our Goal section */}
-      <div className="px-5 md:px-[100px] py-10">
+      <div className="px-5 md:px-[100px] py-10  dark:bg-black dark:text-white">
         <h1 className="font-semibold text-5xl text-center">{HomeHdr2}</h1>
         <p className="text-sm text-justify m-6">{HomePar4}</p>
       </div>
