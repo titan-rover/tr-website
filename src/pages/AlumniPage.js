@@ -8,10 +8,10 @@ import team20162017 from '../components/2016-2017-team.png';
 export const AlumniPage = () => {
    
     const yearData = [
-        { year: '2019-2020', imgSrc: team20192020, bgColor: 'bg-white' }, 
-        { year: '2018-2019', imgSrc: team20182019, bgColor: 'bg-blue-200' },
-        { year: '2017-2018', imgSrc: team20172018, bgColor: 'bg-white' },
-        { year: '2016-2017', imgSrc: team20162017, bgColor: 'bg-blue-200' }
+        { year: '2019-2020', imgSrc: team20192020 }, 
+        { year: '2018-2019', imgSrc: team20182019 },
+        { year: '2017-2018', imgSrc: team20172018 },
+        { year: '2016-2017', imgSrc: team20162017 } 
     ];
 
     return (
@@ -29,30 +29,34 @@ export const AlumniPage = () => {
                 <h2 className="text-3xl font-semibold">Titan Rover Through The Years</h2>
             </section>
 
-            {yearData.map((data, index) => (
-                <section key={index} className={`${data.bgColor} w-full`}>
-                    <div className="flex flex-col max-w-4xl mx-auto py-4"> 
-                        <div className="rounded-lg shadow-md overflow-hidden">
-                            <h3 className="text-center text-2xl font-medium py-0 mb-0"> 
-                                {data.year}
-                            </h3>
-                            
-                            <div className="w-full relative pb-[100%] focus:outline-none"> 
-                                <img 
-                                    src={data.imgSrc} 
-                                    alt={`${data.year} team`} 
-                                    className="absolute top-0 left-0 w-full h-full object-contain border-none focus:outline-none"  
-                                />
-                            </div>
+            <section className="flex flex-col space-y-8 max-w-4xl mx-auto">
+                {yearData.map((data, index) => (
+                    <div 
+                        key={index} 
+                        className={`rounded-lg shadow-md overflow-hidden ${
+                            data.year === '2018-2019' || data.year === '2016-2017' ? 'bg-blue-200' : 'bg-white'
+                        }`}
+                    >
+                        <h3 className="text-center text-xl font-medium py-4">{data.year}</h3>
+                                  
+                        <div className="w-full relative pb-[100%]">  
+                            <img 
+                                src={data.imgSrc} 
+                                alt={`${data.year} team`} 
+                                className="absolute top-0 left-0 w-full h-full object-contain"  // Use object-contain
+                            />
                         </div>
                     </div>
-                </section>
-            ))}
-
-            <div className="h-32"></div>
+                ))}
+               
+                <div className="h-32"></div>  
+            </section>
         </>
     );
 }
+
+
+
 
 
 
