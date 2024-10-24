@@ -26,12 +26,12 @@ export const WhyJoin = () => {
 	];
 
 	return (
-		<div className="bg-gradient-to-b from-[rgba(19,65,117,0.46)] dark:from-[rgba(19,65,117,0.81)] to-[rgba(26,33,65,0.46)] dark:to-[rgba(26,33,65,0.56)] min-h-screen sm:pb-4">
+		<div className=" p-2 md:p-0 bg-gradient-to-b from-[rgba(19,65,117,0.46)] dark:from-[rgba(19,65,117,0.81)] to-[rgba(26,33,65,0.46)] dark:to-[rgba(26,33,65,0.56)] min-h-screen sm:pb-4">
 			<section className="mx-auto container px-3">
 				<h1 className="text-4xl font-bold py-8 md:py-14 text-black dark:text-white">
 					Why Join Titan Rover?
 				</h1>
-				<div className="flex flex-col md:flex-row gap-3 md:gap-2 lg:gap-9">
+				<div className="flex flex-col md:flex-row gap-3 md:gap-2 lg:gap-9 ">
 					{cardsData.map((card, index) => (
 						<Card key={index} {...card} />
 					))}

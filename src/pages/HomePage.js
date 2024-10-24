@@ -65,6 +65,7 @@ export const HomePage = () => {
 
       {/* WhyJoin component */}
       <WhyJoin />
+      
     </>
   );
 };
