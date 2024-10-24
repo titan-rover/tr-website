@@ -15,7 +15,7 @@ export const HomePage = () => {
   return (
     <>
  {/* Hero section */}
-<div className="relative w-full h-[500px] sm:h-[600px] md:h-[70vh] lg:h-[80vh] dark:bg-black mt-0">
+<div className="relative w-full h-[500px] sm:h-[600px] md:h-[70vh] lg:h-[80vh] dark:bg-black mt-0 pt-0">
   {/* Background image */}
   <img src={placeholder} alt="Titan Rover" className="w-full h-full object-cover" />
   

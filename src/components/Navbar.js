@@ -19,14 +19,14 @@ export const Navbar = () => {
 
   return (
     <nav 
-      className={`w-full shadow py-4 ${dark ? 'bg-black' : 'bg-white'} transition-colors duration-500`}
+      className={`w-full py-4 shadow  ${dark ? 'bg-black' : 'bg-white'} transition-colors duration-500`}
       style={{
         backgroundImage: dark ? 'none' : `url(${navheader})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
       }}
     >
-      <div className="container mx-auto px-4 flex items-center justify-between">
+      <div className="container mx-auto px-4 flex items-center justify-between mb-0">
         <Link to="/">
           <img className="w-52 h-auto" src={logo} alt="Logo" />
         </Link>
