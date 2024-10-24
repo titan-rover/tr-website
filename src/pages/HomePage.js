@@ -1,4 +1,5 @@
 import { WhyJoin } from "../components/About/WhyJoin";
+import placeholder from '../components/placeholder.jpg';
 import { Link } from "react-router-dom";
 import TeamPng from '../components/TeamPng.png';
 
@@ -13,6 +14,25 @@ const HomePar4 = "Our Goal Is To Prepare Students in STEM Related Fields With Te
 export const HomePage = () => {
   return (
     <>
+      {/* Hero section */}
+      <div className="relative w-full h-[400px] md:h-[500px] dark:bg-black mt-0">
+        {/* Background image */}
+        <img src={placeholder} alt="Titan Rover" className="w-full h-full object-cover" />
+        
+        {/* Overlay with heading */}
+        <div className="absolute inset-0 bg-black bg-opacity-40 flex flex-col justify-start items-start text-left p-8 sm:p-12 md:p-20 lg:p-32">
+          <h1 className="text-white text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-regular mb-4 p-2">
+            University Rover<br />Challenge
+          </h1>
+          <p className="text-white text-lg sm:text-xl md:text-2xl font-light mb-6 p-2">
+            Competitor Since 2014
+          </p>
+          <button className="bg-orange-500 text-white hover:bg-orange-300 py-2 px-4 sm:py-3 sm:px-6 md:py-3 md:px-8 rounded-lg font-regular text-base sm:text-lg md:text-xl transition-transform transform hover:scale-105 p-2">
+            Join The Team
+          </button>
+        </div>
+      </div>
+
       {/* Main content section */}
       <div className="flex flex-col md:flex-row items-center md:items-start dark:bg-black dark:text-white ">
         {/* Text section */}
