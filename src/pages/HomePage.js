@@ -2,6 +2,7 @@ import { WhyJoin } from "../components/About/WhyJoin";
 import placeholder from '../components/placeholder.jpg';
 import { Link } from "react-router-dom";
 import TeamPng from '../components/TeamPng.png';
+import YoutubeEmbed from "../YoutubeEmbeded";
 
 const HomeHdr1 = "Who We Are";
 const HomePar1 = "Our Multidisciplinary Club Began As An Electrical Engineering Project. Over Time, Titan Rover Has Expanded To Include Students With Backgrounds In: Mechanical Engineering, Computer Engineering, Computer Science, Biology, Geology, Business, Chemistry, Photography, Film, Graphic Design, Marketing, Etc.";
@@ -65,6 +66,13 @@ export const HomePage = () => {
 
       {/* WhyJoin component */}
       <WhyJoin />
+      {/* checkout-latest */}
+      <div className="flex flex-col items-center py-8 px-4 md:px-8 lg:px-16 dark:bg-black"> 
+        <h1 className="text-4xl font-bold py-8 md:py-14 text-center dark:text-white">
+          Check out our latest Video
+        </h1>
+        <YoutubeEmbed embedId="OTfGrkzJBZI" />
+      </div>
       
     </>
   );
