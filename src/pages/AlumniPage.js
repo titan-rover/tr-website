@@ -16,6 +16,8 @@ export const AlumniPage = () => {
 
     return (
         <>
+
+        {/* alumni hero section */}
             <header 
                 className="relative bg-cover bg-center h-screen" 
                 style={{ backgroundImage: `url(${background})` }} 
@@ -25,11 +27,14 @@ export const AlumniPage = () => {
                 </div>
             </header>
 
+
+           {/* throughout the years section */}
+
             <section className="text-center py-8">
                 <h2 className="text-3xl font-semibold">Titan Rover Through The Years</h2>
             </section>
 
-            <section className="flex flex-col space-y-8 max-w-4xl mx-auto">
+            {/* <section className="flex flex-col space-y-8 max-w-4xl mx-auto">
                 {yearData.map((data, index) => (
                     <div 
                         key={index} 
@@ -50,7 +55,7 @@ export const AlumniPage = () => {
                 ))}
                
                 <div className="h-32"></div>  
-            </section>
+            </section> */}
         </>
     );
 }
