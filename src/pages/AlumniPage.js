@@ -9,6 +9,8 @@ export const AlumniPage = () => {
     );
 };
 
+// need to move the component in a different file 
+
 export const AlumniCard4 = () => {
     return(
         <div className="m-auto px-30 py-20 grid justify-center bg-blue-200">
