@@ -5,6 +5,11 @@ import team20182019 from '../components/2018-2019-team.png';
 import team20172018 from '../components/2017-2018-team.png';
 import team20162017 from '../components/2016-2017-team.png'; 
 
+
+
+import Team_2016_17 from '../components/2016-2017-team.png';
+const Members_2016_17 = "Joann Sum, Joann Sum, Joann Sum, Joann Sum, Joann Sum, Joann Sum, Joann Sum, Joann Sum, Joann Sum, Joann Sum, Joann Sum, Joann Sum, Joann Sum, ";
+
 export const AlumniPage = () => {
    
     const yearData = [
@@ -30,9 +35,11 @@ export const AlumniPage = () => {
 
            {/* throughout the years section */}
 
-            <section className="text-center py-8">
+            <section className="text-center ">
                 <h2 className="text-3xl font-semibold">Titan Rover Through The Years</h2>
             </section>
+
+            <AlumniCard4 />
 
             {/* <section className="flex flex-col space-y-8 max-w-4xl mx-auto">
                 {yearData.map((data, index) => (
@@ -62,6 +69,30 @@ export const AlumniPage = () => {
 
 
 
+export const AlumniCard4 = () => {
+    return(
+        <div className="m-auto py-20 grid justify-center">
+            {/*Text Section*/}
+            <h1 className='mb-5 text-5xl text-center'>2016-2017</h1>
+            {/*FlipCard Section*/}
+            <div className="group [perspective:1000px]">
+                <div className="relative min-h-[500px] min-w-[900px] shadow-lg transition-all duration-1000 [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)]">
+                    {/*Front*/}
+                    <div className="absolute h-full w-full inset-0 rounded-lg [backface-visibility:hidden]">
+                        <img src={Team_2016_17} alt="Team 2016-2017" className="w-full h-full"/>
+                    </div>
+                    {/*Back*/}
+                    <div className="absolute h-full w-full inset-0 rounded-lg [transform:rotateY(180deg)] [backface-visibility:hidden] flex flex-col justify-center bg-amber-500">
+                        <div className='py-9'>
+                            <p className="text-5xl">2016-2017 Members</p>
+                            <p className="text-4xl mx-20"> {Members_2016_17} </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    );
+};
 
 
 
