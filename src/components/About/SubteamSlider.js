@@ -2,6 +2,15 @@ import React, { useRef, useEffect } from 'react';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation, Pagination } from 'swiper/modules';
 import { Linkedin } from 'lucide-react';
+import mechanicals from '../mechanical.png'
+import business from '../business.png'
+import science from '../science.png'
+import controls from '../controls.png'
+import electrical from '../electrical.png'
+import departmentchair from '../departmentchair.png'
+
+
+
 import 'swiper/css';
 import 'swiper/css/navigation';
 
@@ -9,40 +18,40 @@ const teams = [
   {
     name: "Mechanical",
     description: "Building the foundation. Engineers and designers in this department create the physical structure of the rover, including the chassis, suspension, wheels, science mechanism and robotic arm and gripper.",
-    image: "dev-team.jpg",
+    image: mechanicals,
     leads: [
-      { image: "lead1.jpg", linkedin: "https://linkedin.com/in/lead1" },
-      { image: "lead2.jpg", linkedin: "https://linkedin.com/in/lead2" }
+      { image: departmentchair, linkedin: "https://linkedin.com/in/lead1" },
+      { image: departmentchair, linkedin: "https://linkedin.com/in/lead2" }
     ]  },
   {
     name: "Controls",
     description: "The brains behind our rover's operation. This team of computer scientists and engineers develops the software that brings our rover to life, including autonomous navigation, communication systems, and science instrument control.",
-    image: "design-team.jpg",
-    leads: ["lead3.jpg", "lead4.jpg"]
+    image: controls,
+    leads: [departmentchair, departmentchair]
   },
   {
     name: "Science",
     description: "Uncovering the secrets of Mars. Biology, chemistry, and geology students collaborate to develop experiments that our rover will conduct on simulated Martian terrain, searching for signs of life and studying the planet's geology.",
-    image: "design-team.jpg",
+    image: science,
     leads: [
-      { image: "lead1.jpg", linkedin: "https://linkedin.com/in/lead1" },
-      { image: "lead2.jpg", linkedin: "https://linkedin.com/in/lead2" }
+      { image: departmentchair, linkedin: "https://linkedin.com/in/lead1" },
+      { image: departmentchair, linkedin: "https://linkedin.com/in/lead2" }
     ]  },
   {
     name: "Business",
     description: "Fueling our success. Our business-minded team handles finances, marketing, and sponsorships, ensuring the smooth operation of our project.",
-    image: "design-team.jpg",
+    image: business,
     leads: [
-      { image: "lead1.jpg", linkedin: "https://linkedin.com/in/lead1" },
-      { image: "lead2.jpg", linkedin: "https://linkedin.com/in/lead2" }
+      { image: departmentchair, linkedin: "https://linkedin.com/in/lead1" },
+      { image: departmentchair, linkedin: "https://linkedin.com/in/lead2" }
     ]  },
   {
     name: "Electrical",
     description: "Powering our mission. Electrical and computer engineers on this team design and build the electronic systems that keep our rover running, from circuit boards to battery management.",
-    image: "design-team.jpg",
+    image: electrical,
     leads: [
-      { image: "lead1.jpg", linkedin: "https://linkedin.com/in/lead1" },
-      { image: "lead2.jpg", linkedin: "https://linkedin.com/in/lead2" }
+      { image: departmentchair, linkedin: "https://linkedin.com/in/lead1" },
+      { image: departmentchair, linkedin: "https://linkedin.com/in/lead2" }
     ]  },
 ];
 
