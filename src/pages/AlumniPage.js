@@ -23,8 +23,11 @@ export const AlumniPage = () => {
         <>
 
         {/* alumni hero section */}
+        {/* relative bg-cover bg-center h-screen */}
+
+            
             <header 
-                className="relative bg-cover bg-center h-screen" 
+                className=" relative w-full h-[500px] py-5" 
                 style={{ backgroundImage: `url(${background})` }} 
             >
                 <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
@@ -36,7 +39,7 @@ export const AlumniPage = () => {
            {/* throughout the years section */}
 
             <section className="text-center ">
-                <h2 className="text-3xl font-semibold">Titan Rover Through The Years</h2>
+                <h2 className="text-3xl font-semibold py-4">Titan Rover Through The Years</h2>
             </section>
 
             <AlumniCard4 />
