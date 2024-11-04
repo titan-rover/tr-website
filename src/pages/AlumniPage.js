@@ -38,7 +38,7 @@ export const AlumniPage = () => {
 
            {/* throughout the years section */}
 
-            <section className="text-center ">
+            <section className="text-center dark:bg-black dark:text-white">
                 <h2 className="text-3xl font-semibold py-4">Titan Rover Through The Years</h2>
             </section>
 
@@ -74,7 +74,7 @@ export const AlumniPage = () => {
 
 export const AlumniCard4 = () => {
     return(
-        <div className="m-auto py-20 grid justify-center">
+        <div className="m-auto py-20 grid justify-center dark:bg-black dark:text-white">
             {/*Text Section*/}
             <h1 className='mb-5 text-5xl text-center'>2016-2017</h1>
             {/*FlipCard Section*/}
