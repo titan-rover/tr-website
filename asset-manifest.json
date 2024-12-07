@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/%7Btr-website%7D/static/css/main.7b8ede6e.css",
+    "main.js": "/%7Btr-website%7D/static/js/main.4e66fcf8.js",
+    "static/js/453.35fc772b.chunk.js": "/%7Btr-website%7D/static/js/453.35fc772b.chunk.js",
+    "static/media/mechanical.png": "/%7Btr-website%7D/static/media/mechanical.178c9d93c8bd0cc1acdd.png",
+    "static/media/2016-2017-team.png": "/%7Btr-website%7D/static/media/2016-2017-team.b28945196fe2943671a1.png",
+    "static/media/2017-2018-team.png": "/%7Btr-website%7D/static/media/2017-2018-team.6f1562d5171ee6be9801.png",
+    "static/media/electrical.png": "/%7Btr-website%7D/static/media/electrical.e4d261aadc6d0433811d.png",
+    "static/media/Mission.png": "/%7Btr-website%7D/static/media/Mission.f41c891d6f75caa36c1b.png",
+    "static/media/AlumniBackground.png": "/%7Btr-website%7D/static/media/AlumniBackground.dda8186ec7e50abb167b.png",
+    "static/media/controls.png": "/%7Btr-website%7D/static/media/controls.a94dbfa863e1dacff7df.png",
+    "static/media/business.png": "/%7Btr-website%7D/static/media/business.d87604d41b70376de104.png",
+    "static/media/science.png": "/%7Btr-website%7D/static/media/science.d1986e4c69bd2595cf36.png",
+    "static/media/2018-2019-team.png": "/%7Btr-website%7D/static/media/2018-2019-team.c1e0385e657ae14eba3e.png",
+    "static/media/2019-2020-team.png": "/%7Btr-website%7D/static/media/2019-2020-team.989151460944f007bf3d.png",
+    "static/media/TeamPng.png": "/%7Btr-website%7D/static/media/TeamPng.104feea87ddbfb2ead32.png",
+    "static/media/placeholder.jpg": "/%7Btr-website%7D/static/media/placeholder.3b5b912ffc58e98bd023.jpg",
+    "static/media/navheader.png": "/%7Btr-website%7D/static/media/navheader.836713d9ab40f6c9b166.png",
+    "static/media/departmentchair.png": "/%7Btr-website%7D/static/media/departmentchair.79ef0976075fc1831ba1.png",
+    "static/media/logo.png": "/%7Btr-website%7D/static/media/logo.1b35d8501efaaa8299f6.png",
+    "index.html": "/%7Btr-website%7D/index.html",
+    "main.7b8ede6e.css.map": "/%7Btr-website%7D/static/css/main.7b8ede6e.css.map",
+    "main.4e66fcf8.js.map": "/%7Btr-website%7D/static/js/main.4e66fcf8.js.map",
+    "453.35fc772b.chunk.js.map": "/%7Btr-website%7D/static/js/453.35fc772b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b8ede6e.css",
+    "static/js/main.4e66fcf8.js"
+  ]
+}
