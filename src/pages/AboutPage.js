@@ -1,6 +1,11 @@
 import { SubteamSlider } from '../components/About/SubteamSlider';
 import placeholder from '../components/placeholder.jpg';
 import missionImage from '../components/Mission.png';
+import electrical from '../components/electrical.png'
+import science from '../components/science.png'
+import mechanical from '../components/mechanical.png'
+import controls from '../components/controls.png'
+import business from '../components/business.png'
 
 export const AboutPage = () => {
   return (
@@ -31,21 +36,55 @@ export const AboutPage = () => {
 
     {/* our team structure */}
 
-          <div className=' p-2 px-5 py-5 bg-cover bg-gradient-to-b from-[rgba(19,65,117,0.46)] dark:from-[rgba(19,65,117,0.81)] to-[rgba(26,33,65,0.46)] dark:to-[rgba(26,33,65,0.56)] mh-screen '>
-
-          <h1 className="text-4xl font-bold mt-6 mb-6 ">Our Team Structure</h1>
-          <div className="px-20">
-          <p className="text-lg mb-6 px-20 text-left">
-          Titan Rover’s team is divided into five specialized subteams—Mechanical, Electrical, Controls, Business, and Life Sciences. Each subteam brings unique expertise, working together to ensure the success of our rover missions.
-          </p>
-         
-          <h1 className="text-4xl font-bold text-left px-20">Subteams</h1>
-          <SubteamSlider />
+    <section className='pb-10 pt-5'> 
+      <h1 className="text-4xl font-bold mt-6 mb-6 ">Our Team Structure</h1> 
+      <div className='grid grid-cols-1 md:grid-cols-3 gap-3 max-w-7xl mx-auto'>
+        {/* subteam cards */}
+          <div className='border border-black border-lg p-6'> 
+              <img src={mechanical} />
+              <h3 className='text-xs md:text-xl font-bold p-2'>Mechanical</h3>
+              <p>
+              Building the foundation. Engineers and designers in this department create the physical structure of the rover, 
+              including the chassis, suspension, wheels, science mechanism and robotic arm and gripper.
+              </p>
           </div>
-          
+          <div className='border border-black border-lg p-6'> 
+              <img src={electrical} />
+              <h3 className='text-xs md:text-xl font-bold p-2' >Electrical</h3>
+              <p>
+              Powering our mission. Electrical and computer engineers on this team design and build the electronic systems that keep our rover running, 
+              from circuit boards to battery management.
 
+              </p>
           </div>
 
+          <div className='border border-black border-lg p-6'> 
+              <img src={controls} />
+              <h3 className='text-xs md:text-xl font-bold p-2' >Controls</h3>
+              <p>
+              The brains behind our rover's operation. This team of computer scientists and engineers develops the software that brings our rover to life, including autonomous navigation, 
+              communication systems, and science instrument control.
+              </p>
+          </div>
+           <div className='border border-black border-lg p-6'> 
+              <img src={business} />
+              <h3 className='text-xs md:text-xl font-bold p-2' >Business</h3>
+              <p>
+              Fueling our success. Our business-minded team handles finances, marketing, and sponsorships, ensuring the smooth operation of our project.
+              </p>
+          </div>
+          <div className='border border-black border-lg p-6'> 
+              <img src={science} />
+              <h3 className='text-xs md:text-xl font-bold p-2' >Life Sciences</h3>
+              <p>
+              Uncovering the secrets of Mars. Biology, chemistry, and geology students collaborate to develop experiments that 
+              our rover will conduct on simulated Martian terrain, searching for signs of life and studying the planet's geology.
+              </p>
+          </div>
+
+      </div>
+
+    </section>
         
       </div>    
     </>
