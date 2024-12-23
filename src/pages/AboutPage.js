@@ -37,7 +37,7 @@ export const AboutPage = () => {
     {/* our team structure */}
 
     <section className='pb-10 pt-5'> 
-      <h1 className="text-4xl font-bold mt-6 mb-6 ">Our Team Structure</h1> 
+      <h1 className="text-4xl font-bold mt-6 mb-6 ">Sub Teams</h1> 
       <div className='grid grid-cols-1 md:grid-cols-3 gap-3 max-w-7xl mx-auto'>
         {/* subteam cards */}
           <div className='border border-black border-lg p-6'> 
