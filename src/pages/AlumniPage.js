@@ -1,9 +1,9 @@
 import React from 'react';
 // import background from '../components/AlumniBackground.png';  
 import team20192020 from '../components/2019-2020-team.png'; 
-import team20182019 from '../components/2018-2019-team.png';
+// import team20182019 from '../components/2018-2019-team.png';
 import team20172018 from '../components/2017-2018-team.png';
-import team20162017 from '../components/2016-2017-team.png'; 
+// import team20162017 from '../components/2016-2017-team.png'; 
 import placeholder from '../components/placeholder.jpg';
 
 
@@ -13,12 +13,12 @@ const Members_2016_17 = "Joann Sum, Joann Sum, Joann Sum, Joann Sum, Joann Sum, 
 
 export const AlumniPage = () => {
    
-    const yearData = [
-        { year: '2019-2020', imgSrc: team20192020 }, 
-        { year: '2018-2019', imgSrc: team20182019 },
-        { year: '2017-2018', imgSrc: team20172018 },
-        { year: '2016-2017', imgSrc: team20162017 } 
-    ];
+    // const yearData = [
+    //     { year: '2019-2020', imgSrc: team20192020 }, 
+    //     { year: '2018-2019', imgSrc: team20182019 },
+    //     { year: '2017-2018', imgSrc: team20172018 },
+    //     { year: '2016-2017', imgSrc: team20162017 } 
+    // ];
 
     return (
         <>
