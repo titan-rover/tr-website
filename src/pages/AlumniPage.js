@@ -1,9 +1,10 @@
 import React from 'react';
-import background from '../components/AlumniBackground.png';  
+// import background from '../components/AlumniBackground.png';  
 import team20192020 from '../components/2019-2020-team.png'; 
 import team20182019 from '../components/2018-2019-team.png';
 import team20172018 from '../components/2017-2018-team.png';
 import team20162017 from '../components/2016-2017-team.png'; 
+import placeholder from '../components/placeholder.jpg';
 
 
 
@@ -22,19 +23,22 @@ export const AlumniPage = () => {
     return (
         <>
 
-        {/* alumni hero section */}
-        {/* relative bg-cover bg-center h-screen */}
+         {/* Hero Section */}
+      <section className="relative w-full h-[500px] md:h-[70vh] dark:bg-black">
+        <img
+          src={placeholder}
+          alt="Titan Rover"
+          className="w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-black/60 flex items-center justify-center">
+          <h1 className="text-white text-5xl md:text-6xl font-bold">
+            Alumni 
+          </h1>
+        </div>
+      </section>
 
-            
-            <header 
-                className=" relative w-full h-[500px] py-5" 
-                style={{ backgroundImage: `url(${background})` }} 
-            >
-                <div className="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
-                    <h1 className="text-white text-4xl font-bold">Alumni</h1>
-                </div>
-            </header>
 
+        
 
            {/* throughout the years section */}
 

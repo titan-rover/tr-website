@@ -5,6 +5,7 @@ import { Footer } from './components/Footer';
 import { HomePage } from './pages/HomePage';
 import { AboutPage } from './pages/AboutPage';
 import { AlumniPage } from './pages/AlumniPage';
+import { TeamsPage } from './pages/TeamsPage';
 
 const AppRoutes = () => {
   return (
@@ -16,6 +17,7 @@ const AppRoutes = () => {
           <Route path="/" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />
           <Route path="/alumni" element={<AlumniPage />} />
+          <Route path="/teams" element={<TeamsPage />} />
         </Routes>
       </div>
       <Footer /> 

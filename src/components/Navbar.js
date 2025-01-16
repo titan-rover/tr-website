@@ -55,6 +55,9 @@ export const Navbar = () => {
           <li className="hover:underline hover:text-[#FD7718] transition-all duration-300">
             <Link to="/alumni">Alumni</Link>
           </li>
+          <li className="hover:underline hover:text-[#FD7718] transition-all duration-300">
+            <Link to="/teams">Teams</Link>
+          </li>
         </ul>
 
         {/* Desktop Donate and Dark Mode */}
