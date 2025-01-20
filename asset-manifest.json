@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tr-website/static/css/main.4b834274.css",
-    "main.js": "/tr-website/static/js/main.916daf4f.js",
+    "main.js": "/tr-website/static/js/main.eb58bdec.js",
     "static/js/453.35fc772b.chunk.js": "/tr-website/static/js/453.35fc772b.chunk.js",
     "static/media/mechanical.png": "/tr-website/static/media/mechanical.178c9d93c8bd0cc1acdd.png",
     "static/media/2016-2017-team.png": "/tr-website/static/media/2016-2017-team.b28945196fe2943671a1.png",
@@ -13,7 +13,6 @@
     "static/media/saloni.png": "/tr-website/static/media/saloni.f0a4af9a43527f022d23.png",
     "static/media/business.png": "/tr-website/static/media/business.d87604d41b70376de104.png",
     "static/media/science.png": "/tr-website/static/media/science.d1986e4c69bd2595cf36.png",
-    "static/media/2018-2019-team.png": "/tr-website/static/media/2018-2019-team.c1e0385e657ae14eba3e.png",
     "static/media/avery.jpg": "/tr-website/static/media/avery.eb37156d0bd1c08102ac.jpg",
     "static/media/2019-2020-team.png": "/tr-website/static/media/2019-2020-team.989151460944f007bf3d.png",
     "static/media/TeamPng.png": "/tr-website/static/media/TeamPng.104feea87ddbfb2ead32.png",
@@ -22,11 +21,11 @@
     "static/media/logo.png": "/tr-website/static/media/logo.1b35d8501efaaa8299f6.png",
     "index.html": "/tr-website/index.html",
     "main.4b834274.css.map": "/tr-website/static/css/main.4b834274.css.map",
-    "main.916daf4f.js.map": "/tr-website/static/js/main.916daf4f.js.map",
+    "main.eb58bdec.js.map": "/tr-website/static/js/main.eb58bdec.js.map",
     "453.35fc772b.chunk.js.map": "/tr-website/static/js/453.35fc772b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b834274.css",
-    "static/js/main.916daf4f.js"
+    "static/js/main.eb58bdec.js"
   ]
 }
