@@ -82,6 +82,10 @@ export const AlumniCard4 = () => {
 
 
             {/* 2016 - 2017 */}
+            <section>
+                <h1 className='mb-5 text-2xl text-center'>2016-2017</h1>
+                
+            </section>
 
             {/*Text Section*/}
             <h1 className='mb-5 text-2xl text-center'>2016-2017</h1>
